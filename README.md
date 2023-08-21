@@ -1,10 +1,10 @@
-## Video Player Media Kit
+## Video Player Cross Platform
 
 <a target="blank" href="https://pub.dev/packages/video_player_cross_platform"><img src="https://img.shields.io/pub/v/video_player_cross_platform?include_prereleases&style=flat-square"/></a>
 <img src="https://img.shields.io/github/last-commit/zezo357/video_player_cross_platform/master?style=flat-square"/>
 <img src="https://img.shields.io/github/license/zezo357/video_player_cross_platform?style=flat-square"/>
 
-Video Player Media Kit is a platform interface for video player using media_kit to work on Windows and Linux and macos. This interface allows you to play videos seamlessly in your flutter application.
+Video Player Cross Platform is a platform interface for video player using media_kit to work on Windows and Linux and macos. This interface allows you to play videos seamlessly in your flutter application.
 
 Note: this package allows video_player to work across platforms
 
@@ -13,7 +13,7 @@ Note: this package allows video_player to work across platforms
 
 ## How to use
 
-To use Video Player Media Kit in your application, follow the steps below:
+To use Video Player Cross Platform in your application, follow the steps below:
 
 1. Setup
 
@@ -83,10 +83,10 @@ dependencies:
 ```yaml
 dependencies:
   ...
-  media_kit_libs_android_video: 1.3.0           # Android package for video native libraries.
+  media_kit_libs_android_video: ^1.3.2           # Android package for video native libraries.
 ```
 
-1. Add the Video Player Media Kit dependency in your `pubspec.yaml` file:
+1. Add the Video Player Cross Platform dependency in your `pubspec.yaml` file:
 
 ```
 dependencies:
@@ -99,7 +99,7 @@ dependencies:
 import 'package:video_player_dart_vlc/video_player_cross_platform.dart';
 ```
 
-4.  Initialize the Video Player Media Kit interface in the main function of your app
+4.  Initialize the Video Player Cross Platform interface in the main function of your app
 
 ```
 void main() {
